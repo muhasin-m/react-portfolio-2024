@@ -37,7 +37,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section id="testimonials" className="py-20 px-6 ">
-      <SectionTitle text="Testimonials" />
+      <SectionTitle text="Testimonial" />
       <div className="py-16 flex flex-col gap-8 md:flex-row md:flex-wrap md:justify-center">
         {testimonials.map((testimonial) => (
           <div

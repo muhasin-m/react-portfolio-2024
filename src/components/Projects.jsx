@@ -13,7 +13,7 @@ const Projects = () => {
           })}
         </div>
         <button className="py-1 px-2 capitalize bg-emerald-500 text-white font-semibold rounded-md shadow-md hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-emerald-400 focus:ring-opacity-75">
-          More projects are coming ...
+          More projects to be uploaded soon ...
         </button>
       </section>
     </>

@@ -2,9 +2,12 @@ import { nanoid } from "nanoid";
 import { FaNode, FaFigma, FaReact, FaNodeJs } from "react-icons/fa";
 import dramKit from "./assets/dram-kit.png";
 import workout from "./assets/workout.png";
+import cocktail from "./assets/cocktail.png";
+import weather from "./assets/weather.png";
+import blog from "./assets/blog.png";
 
 export const links = [
-  // { id: nanoid(), href: "#home", text: "home" },
+  { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "expertise" },
   { id: nanoid(), href: "#projects", text: "projects" },
@@ -47,7 +50,7 @@ export const projects = [
     img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
     url: "/",
     github: "https://github.com/muhasin-mahmud/social-media",
-    title: "first project",
+    title: "MERN - Social Media",
     text: "A social media application using the MERN stack (MongoDB, Express.js, React, and Node.js). The app allows users to create profiles, share posts, follow other users, and engage with content through likes and comments. It features real-time updates, secure authentication with JWT, and a responsive design for optimal user experience across all devices.",
   },
   {
@@ -57,5 +60,30 @@ export const projects = [
     github: "https://github.com/muhasin-m/mern-stack_workout-project",
     title: "MERN - Workout Buddy",
     text: "This project is a MERN stack workout application, built with React, Node.js, Express.js, and MongoDB. It features JWT authentication, user login, and registration, allowing users to individually add and track their workouts. The application boasts a responsive design, ensuring a seamless experience across all devices.",
+  },
+  {
+    id: nanoid(),
+    img: blog,
+    url: "/",
+    github: "https://github.com/muhasin-mahmud/Blog-app",
+    title: "Blog",
+    text: "This project is a MERN stack Blog site, built with React, Node.js, Express.js, and MongoDB.",
+  },
+  {
+    id: nanoid(),
+    img: weather,
+    url: "https://muhasin-mahmud.github.io/Weather-App-/",
+    github: "https://github.com/muhasin-mahmud/Weather-App-",
+    title: "Weather app",
+    text: "A simple React weather app that fetches data from the OpenWeather API to display current weather conditions for various locations.",
+  },
+ 
+  {
+    id: nanoid(),
+    img: cocktail,
+    url: "https://m-cocktail.netlify.app/",
+    github: "https://github.com/muhasin-mahmud/m-cocktail",
+    title: "MERN - Workout Buddy",
+    text: "A React.js application utilizing React Router for seamless navigation and various React hooks for efficient state management. The app fetches cocktail data from the www.thecocktaildb.com API, providing an interactive and dynamic user experience.",
   },
 ];
