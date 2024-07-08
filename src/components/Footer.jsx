@@ -10,7 +10,7 @@ const Footer = () => {
       justify-center"
         >
           &copy; {currentYear} Muhasin Mahmud.{" "}
-          <br className="block md:hidden" />
+          <br className="block md:hidden " />
           All rights reserved.
         </p>
       </div>

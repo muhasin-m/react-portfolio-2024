@@ -5,14 +5,14 @@ function ContactForm() {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center md-h-screen py-12 px-4 sm:px-6 lg:px-8 "
+      className="flex items-center justify-center md-h-screen py-20 px-4 sm:px-6 lg:px-8 "
     >
       <div className="w-full max-w-4xl">
         <SectionTitle text="Contact Me" />
         {/* <h2 className="text-3xl font-extrabold text-center text-gray-900 sm:text-4xl">
           Contact Me
         </h2> */}
-        <p className="mt-4 text-lg leading-6 text-center text-gray-600">
+        <p className="mt-4 text-sm  text-center text-slate-700 leading-loose">
           Feel free to reach out for collaborations or just a friendly hello 😊
         </p>
         <div className="mt-8 sm:mt-12">

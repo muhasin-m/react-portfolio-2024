@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="bg-white py-24">
       <div className="align-element grid  md:grid-cols-2 items-center gpa-8">
-        <article>
+        <article className="my-10 py-10">
           <h1 className="text-6xl font-bold tracking-wide grid grd-5">
             Muhasin Mahmud
           </h1>
@@ -39,7 +39,7 @@ const Hero = () => {
           <img
             src={aboutImg}
             alt=""
-            className=" w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full shadow-lg transform transition duration-500 hover:scale-110"
+            className=" w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full border-4 border-emerald-100 shadow-lg transform transition duration-500 hover:scale-110"
           />
         </article>
       </div>

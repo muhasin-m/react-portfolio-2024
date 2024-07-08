@@ -8,7 +8,7 @@ export const links = [
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "expertise" },
   { id: nanoid(), href: "#projects", text: "projects" },
-  { id: nanoid(), href: "#testimonials", text: "testimonials" },
+  { id: nanoid(), href: "#testimonials", text: "testimonial" },
   { id: nanoid(), href: "#contact", text: "contact-me" },
 ];
 
@@ -58,5 +58,4 @@ export const projects = [
     title: "MERN - Workout Buddy",
     text: "This project is a MERN stack workout application, built with React, Node.js, Express.js, and MongoDB. It features JWT authentication, user login, and registration, allowing users to individually add and track their workouts. The application boasts a responsive design, ensuring a seamless experience across all devices.",
   },
- 
 ];
