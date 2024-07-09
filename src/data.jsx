@@ -5,6 +5,7 @@ import workout from "./assets/workout.png";
 import cocktail from "./assets/cocktail.png";
 import weather from "./assets/weather.png";
 import blog from "./assets/blog.png";
+import healthySmile from "./assets/healthy-smile.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -45,6 +46,24 @@ export const projects = [
     title: "Fröhliche Weihnachten - Drum Kit",
     text: "Fröhliche Weihnachten is a fun and interactive drum kit project built using HTML, CSS, and JavaScript. This project allows users to play different drum sounds by either pressing keyboard keys or clicking on specific letters on the screen. It was created as a practice exercise to improve JavaScript skills.",
   },
+
+  {
+    id: nanoid(),
+    img: cocktail,
+    url: "https://m-cocktail.netlify.app/",
+    github: "https://github.com/muhasin-mahmud/m-cocktail",
+    title: "React Cocktail",
+    text: "A React.js application utilizing React Router for seamless navigation and various React hooks for efficient state management. The app fetches cocktail data from the www.thecocktaildb.com API, providing an interactive and dynamic user experience.",
+  },
+
+  {
+    id: nanoid(),
+    img: healthySmile,
+    url: "https://healthysmiledhaka.com/",
+    github: "/",
+    title: "Healthy Smile Dental Care",
+    text: "Developed and have been maintaining the official website for Healthy Smile Dhaka, a renowned pediatric dental clinic in Bangladesh, since 2021.",
+  },
   {
     id: nanoid(),
     img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -76,14 +95,5 @@ export const projects = [
     github: "https://github.com/muhasin-mahmud/Weather-App-",
     title: "Weather app",
     text: "A simple React weather app that fetches data from the OpenWeather API to display current weather conditions for various locations.",
-  },
-
-  {
-    id: nanoid(),
-    img: cocktail,
-    url: "https://m-cocktail.netlify.app/",
-    github: "https://github.com/muhasin-mahmud/m-cocktail",
-    title: "React Cocktail",
-    text: "A React.js application utilizing React Router for seamless navigation and various React hooks for efficient state management. The app fetches cocktail data from the www.thecocktaildb.com API, providing an interactive and dynamic user experience.",
   },
 ];
