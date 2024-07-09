@@ -83,7 +83,7 @@ export const projects = [
     img: cocktail,
     url: "https://m-cocktail.netlify.app/",
     github: "https://github.com/muhasin-mahmud/m-cocktail",
-    title: "MERN - Workout Buddy",
+    title: "React Cocktail",
     text: "A React.js application utilizing React Router for seamless navigation and various React hooks for efficient state management. The app fetches cocktail data from the www.thecocktaildb.com API, providing an interactive and dynamic user experience.",
   },
 ];
