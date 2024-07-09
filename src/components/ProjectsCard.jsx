@@ -10,8 +10,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
           alt="Projects images"
           className="w-full object-fit rounded-t-lg h-64"
         />
-        <div className="capitalize p-8">
-          <h2 className="text-xl tracking-wide front-medium">{title} </h2>
+        <div className=" p-8">
+          <h2 className=" capitalize text-xl tracking-wide front-medium">
+            {title}{" "}
+          </h2>
           <p className="mt-4 text-slate-700 leading-loose">{text}</p>
 
           <div className="mt-4 flex justify-between gap-x-4 ">
