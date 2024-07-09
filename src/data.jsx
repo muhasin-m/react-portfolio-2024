@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaNode, FaFigma, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaFigma, FaReact, FaNodeJs } from "react-icons/fa";
 import dramKit from "./assets/dram-kit.png";
 import workout from "./assets/workout.png";
 import cocktail from "./assets/cocktail.png";
@@ -12,7 +12,7 @@ export const links = [
   { id: nanoid(), href: "#skills", text: "expertise" },
   { id: nanoid(), href: "#projects", text: "projects" },
   { id: nanoid(), href: "#testimonials", text: "testimonial" },
-  { id: nanoid(), href: "#contact", text: "contact-me" },
+  { id: nanoid(), href: "#contact", text: "contact" },
 ];
 
 export const skills = [
@@ -77,7 +77,7 @@ export const projects = [
     title: "Weather app",
     text: "A simple React weather app that fetches data from the OpenWeather API to display current weather conditions for various locations.",
   },
- 
+
   {
     id: nanoid(),
     img: cocktail,

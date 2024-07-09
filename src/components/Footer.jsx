@@ -3,7 +3,10 @@ import ScrollToTopButton from "./ScrollToTopButton";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section id="footer" className="bg-gray-800 text-white py-6">
+    <section
+      id="footer"
+      className="bg-gray-800 fixed bottom-0 w-full text-white py-6"
+    >
       <div className="container mx-auto px-4 text-center md:text-left">
         <p
           className="text-xs md:text-base lg:text-lg  flex

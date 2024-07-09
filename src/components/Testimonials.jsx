@@ -1,10 +1,10 @@
 import React from "react";
+import { nanoid } from "nanoid";
 import SectionTitle from "./SectionTitle";
 
 const testimonials = [
   {
-    id: "1",
-    count: "5",
+    id: nanoid(),
     src: "https://media.licdn.com/dms/image/C4D03AQGxyhKv8V8vjA/profile-displayphoto-shrink_100_100/0/1594531925073?e=1726099200&v=beta&t=p1xmYWj8_RcCRjkox-uBMSiDXjWfR1JUowXeKV03iZA",
     description:
       "I firmly believe in Muhasin's potential and capability to be an asset to any team, and I am confident that he will bring his unique blend of commitment, responsibility, and care for students to any institution he joins in the future.",
@@ -13,8 +13,7 @@ const testimonials = [
     linkedin_url: "https://www.linkedin.com/in/alkis-kastrisios/",
   },
   {
-    id: "2",
-    count: "5",
+    id: nanoid(),
     src: "https://media.licdn.com/dms/image/C5103AQFaJZrlRogjUw/profile-displayphoto-shrink_100_100/0/1517531802291?e=1726099200&v=beta&t=xUAxbWN9pcPpizxWaKzFVrwvDfRz4JpfwwO0pcqG_kc",
     description:
       "As a colleague, Muhasin has been a pleasure to work with. Always willing to help, he has your back whenever you need him. His infectious smile and positive attitude make the day-to-day work fun.",
@@ -23,8 +22,8 @@ const testimonials = [
     linkedin_url: "https://www.linkedin.com/in/gerhardnuffer/",
   },
   {
-    id: "3",
-    count: "5",
+    id: nanoid(),
+
     src: "https://media.licdn.com/dms/image/C5103AQGWbXNpvh_xDw/profile-displayphoto-shrink_100_100/0/1517512569626?e=1726099200&v=beta&t=a_-TQ_ekLOqRJyj0b_f-PnTIAfEfTHIq7nsNLLu08E0",
     description:
       "Muhasin is a hard-working, dedicated colleague. Always reliable, polite and with a high level of integrity. Who wouldn't want to work with honest and intelligent people?",

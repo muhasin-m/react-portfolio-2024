@@ -24,8 +24,6 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
           </div>
         </div>
       </article>
-
-     
     </>
   );
 };
