@@ -13,8 +13,7 @@ const Hero = () => {
             Full stack Web Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-            With a passion for developing modern, full-stack, user-friendly web
-            apps, I strive to create seamless and engaging digital experiences.
+          I am passionate about building modern, full-stack web apps that are user-friendly, aiming to deliver seamless and engaging digital experiences.
           </p>
 
           <div className="flex items-center gap-x-4 mt-8">

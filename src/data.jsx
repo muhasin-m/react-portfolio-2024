@@ -6,13 +6,14 @@ import cocktail from "./assets/cocktail.png";
 import weather from "./assets/weather.png";
 import blog from "./assets/blog.png";
 import healthySmile from "./assets/healthy-smile.png";
+import expenseTracker from "./assets/expense-tracker.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#skills", text: "expertise" },
   { id: nanoid(), href: "#projects", text: "projects" },
-  { id: nanoid(), href: "#testimonials", text: "testimonial" },
+  { id: nanoid(), href: "#testimonials", text: "testimonials" },
   { id: nanoid(), href: "#contact", text: "contact" },
 ];
 
@@ -21,7 +22,7 @@ export const skills = [
     id: nanoid(),
     title: "Front-End",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled frontend developer with expertise in HTML, CSS, TailwindCSS, Bootstrap, and React. My proficiency in these technologies allows me to create responsive, user-friendly, and visually appealing web applications, ensuring optimal performance and seamless user experiences.",
+    text: "Highly skilled frontend developer with expertise in HTML, CSS, TailwindCSS, JavaScript, TypeScript, Bootstrap, Vue, and React. My proficiency in these technologies allows me to create responsive, user-friendly, and visually appealing web applications, ensuring optimal performance and seamless user experiences.",
   },
   {
     id: nanoid(),
@@ -38,6 +39,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: expenseTracker,
+    url: "https://muhasin-expense.netlify.app/",
+    github: "https://github.com/muhasin-m/vue-expense-tracker",
+    title: "My Expense Tracker",
+    text: "My Expense Tracker is a dynamic web application designed to help users manage their finances effectively. Built with Vue.js, this application allows you to track your income and expenses separately, providing a clear overview of your financial status. All data is securely stored in local storage, ensuring your information is easily accessible and persistent across sessions. Whether you're budgeting for daily expenses or planning for future savings, My Expense Tracker offers a user-friendly solution to keep your finances organized.",
+  },
   {
     id: nanoid(),
     img: dramKit,

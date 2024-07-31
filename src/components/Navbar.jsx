@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { links } from "../data"; // Make sure this is correctly imported
-import { FaBars, FaTimes } from "react-icons/fa"; // Import icons for hamburger menu
-import { Link } from "react-router-dom";
+import { links } from "../data";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
