@@ -1,6 +1,6 @@
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import aboutImg from "../assets/mahmud.jpg";
-import CV from "../assets/muhasin-mahmud-cv.pdf";
+import CV from "../assets/CV_Muhasin-Mahmud.pdf";
 const Hero = () => {
   return (
     <div className="bg-white py-24" id="home">
@@ -13,7 +13,9 @@ const Hero = () => {
             Full stack Web Developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-          I am passionate about building modern, full-stack web apps that are user-friendly, aiming to deliver seamless and engaging digital experiences.
+            I am passionate about building modern, full-stack web apps that are
+            user-friendly, aiming to deliver seamless and engaging digital
+            experiences.
           </p>
 
           <div className="flex items-center gap-x-4 mt-8">
