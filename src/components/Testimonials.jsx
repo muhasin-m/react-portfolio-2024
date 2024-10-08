@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 const testimonials = [
   {
     id: nanoid(),
-    src: "https://media.licdn.com/dms/image/C4D03AQGxyhKv8V8vjA/profile-displayphoto-shrink_100_100/0/1594531925073?e=1726099200&v=beta&t=p1xmYWj8_RcCRjkox-uBMSiDXjWfR1JUowXeKV03iZA",
+    src: "https://media.licdn.com/dms/image/v2/C4D03AQGxyhKv8V8vjA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1594531925073?e=1733961600&v=beta&t=L8F8y65Ex8s2-6FzbRUsGcOL9uFoRp2QH3jPHDWOV3c",
     description:
       "I firmly believe in Muhasin's potential and capability to be an asset to any team, and I am confident that he will bring his unique blend of commitment, responsibility, and care for students to any institution he joins in the future.",
     author_name: "Alkis Kastrisios",
@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     id: nanoid(),
-    src: "https://media.licdn.com/dms/image/C5103AQFaJZrlRogjUw/profile-displayphoto-shrink_100_100/0/1517531802291?e=1726099200&v=beta&t=xUAxbWN9pcPpizxWaKzFVrwvDfRz4JpfwwO0pcqG_kc",
+    src: "https://media.licdn.com/dms/image/v2/C5103AQFaJZrlRogjUw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517531802575?e=1733961600&v=beta&t=9f8rspSfnhk4HXgi4PsfPnaWSZCB9u-8DDCwkjZN8mg",
     description:
       "As a colleague, Muhasin has been a pleasure to work with. Always willing to help, he has your back whenever you need him. His infectious smile and positive attitude make the day-to-day work fun.",
     author_name: "Gerhard Nuffer",
@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: nanoid(),
 
-    src: "https://media.licdn.com/dms/image/C5103AQGWbXNpvh_xDw/profile-displayphoto-shrink_100_100/0/1517512569626?e=1726099200&v=beta&t=a_-TQ_ekLOqRJyj0b_f-PnTIAfEfTHIq7nsNLLu08E0",
+    src: "https://media.licdn.com/dms/image/v2/C5103AQGWbXNpvh_xDw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517512572282?e=1733961600&v=beta&t=gzqEl_0JyM9W6NoZvG7FMfxyBufLUt8M6fOyqPwt-sg",
     description:
       "Muhasin is a hard-working, dedicated colleague. Always reliable, polite and with a high level of integrity. Who wouldn't want to work with honest and intelligent people?",
     author_name: "Daniela Hollan",
