@@ -7,6 +7,7 @@ import weather from "./assets/weather.png";
 import blog from "./assets/blog.png";
 import healthySmile from "./assets/healthy-smile.png";
 import expenseTracker from "./assets/expense-tracker.png";
+import mernEstate from "./assets/mern-estage.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -39,6 +40,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: mernEstate,
+    url: "https://mern-estate-yjvp.onrender.com/",
+    github: "https://github.com/muhasin-m/mern-estate",
+    title: "Real estate web application",
+    text: "MERNstate is a real estate web application built with the MERN stack (MongoDB, Express, React, Node.js), allowing users to rent or sell their property with ease. The platform is designed to be user-friendly, offering a smooth and intuitive experience. It also ensures secure authentication to protect user data and transactions.",
+  },
   {
     id: nanoid(),
     img: expenseTracker,
